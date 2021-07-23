@@ -25,6 +25,7 @@ export { default as LikeOutline } from "./like-outline.svg";
 export { default as LikeThemed } from "./like-themed.svg";
 export { default as LoveThemed } from "./love-themed.svg";
 export { default as Mail } from "./mail.svg";
+export { default as Menu } from "./menu.svg";
 export { default as Message } from "./message.svg";
 export { default as More } from "./more.svg";
 export { default as Night } from "./night.svg";

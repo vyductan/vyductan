@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useSession } from "next-auth/client";
-import Icon from "../../@vyductan/Icon";
+import Icon from "../../Icon";
 
 const Avatar = ({ width = 40, height = 40 }) => {
   const [session] = useSession();

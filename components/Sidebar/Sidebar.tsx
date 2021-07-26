@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "../../../stores/hooks";
 import { toggleSidebarVisible } from "../../../stores/settings";
 // import User from "../User";
 import SidebarItem from "./SidebarItem";
+import { IconName, IconType } from "../../Icon/Icon";
 
 export const ButtonOpenSidebar = () => {
   const dispatch = useAppDispatch();
@@ -16,8 +17,8 @@ export const ButtonOpenSidebar = () => {
 
 type SidebarItem = {
   title: string;
-  iconType: string;
-  iconName: string;
+  iconType: IconType;
+  iconName: IconName;
 };
 type SidebarProps = {
   items: SidebarItem[];
